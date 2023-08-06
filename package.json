@@ -1,0 +1,23 @@
+{
+  "name": "simple-websocket-server",
+  "version": "1.0.0",
+  "description": "Simple WS Server",
+  "main": "./dist/index.js",
+  "scripts": {
+    "compile" : "npx tsc",
+    "start": "npm run compile && node .",
+    "dev": "npx tsc -w && node ."
+  },
+  "author": "Nik Solohub",
+  "license": "Unlicense",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "@types/ws": "^8.5.5",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6",
+    "ws": "^8.13.0"
+  }
+}
